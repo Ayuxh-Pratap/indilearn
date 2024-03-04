@@ -75,6 +75,11 @@ body {
   background: var(--color-gray-100);
 }
 
+input , textarea {
+  padding: 1rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+}
 
 
 h1,
