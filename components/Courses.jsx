@@ -71,7 +71,7 @@ const Courses = () => {
                 }
             </div>
             <div className='flex items-center gap-4 justify-center'>
-                <button className='btn primary mr-2'><a href="/">Lets Talk</a></button>
+            <button className='group btn round white'><a href="/" className='text-white group-hover:text-black'><p>Explore All</p></a></button>
             </div>
         </section>
     )

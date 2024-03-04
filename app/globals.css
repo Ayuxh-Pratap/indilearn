@@ -154,6 +154,26 @@ img {
   box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.btn.round.white {
+  border-radius: 5rem;
+  background: transparent;
+  border: 1px solid white;
+}
+
+.btn.round.black {
+  border-radius: 5rem;
+  background: transparent;
+  border: 1px solid black;
+}
+
+.btn.round.black:hover {
+  background: black;
+}
+
+.btn.round.white:hover {
+  background: white;
+}
+
 
 p,
 a,
