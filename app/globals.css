@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .container {
+    width: var(--container-width-lg);
+    margin-inline: auto;
+  }
+}
+
 /* General Styles */
 
 * {

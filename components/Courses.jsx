@@ -45,13 +45,13 @@ const Courses = () => {
     ]
 
     return (
-        <section className='lg:w-[84%] lg:mx-auto bg-dark text-center lg:rounded-[1rem]'>
+        <section className='lg:container bg-dark text-center lg:rounded-[1rem]'>
             <div className='mb-16 px-10'>
                 <h2>Our Courses</h2>
                 <h3 className='text-white center lg:w-[35rem] mb-4'>Our Best Courses Offered and Teach By Best of The Instructors</h3>
                 <p className='center lg:w-[30vw]'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
-            <div className='flex justify-evenly mb-16 px-10 lg:flex-row lg:gap-0 gap-10 flex-col'>
+            <div className='flex justify-center mb-16 px-10 lg:flex-row gap-10 flex-col'>
                 {
                     serviceItems.map((item, i) => (
                         <div key={i} className='lg:w-[20rem] bg-white p-3 text-black rounded-xl text-start'>
