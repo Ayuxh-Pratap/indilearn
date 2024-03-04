@@ -6,13 +6,13 @@ import { FaInstagram } from "react-icons/fa";
 const ContactForm = () => {
     return (
         <section>
-            <div className='container px-20 bg-dark text-white text-center py-14 rounded-[1rem]'>
+            <div className='container lg:px-20 px-5 bg-dark text-white text-center py-14 rounded-[1rem]'>
                 <div className='mb-16'>
                     <h3 className='mb-4 primary'>Contact Us Here</h3>
                     <p className='lg:w-[40vw] center'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
                 </div>
 
-                <div className='flex gap-20'>
+                <div className='flex lg:flex-row flex-col gap-20'>
                     <div className='basis-2/3 flex flex-col gap-4'>
                         <h4 className='text-left'>Leave Us a Message</h4>
                         <input type="text" placeholder='Full Name' />
