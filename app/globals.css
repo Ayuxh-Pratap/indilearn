@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  --color-primary: #4AC8AE;
+  --color-white: #fff;
+  --color-black: #000;
+
+
+  --bottom-section-padding: 12rem;
+  --bottom-section-padding-mobile: 8rem;
+
+  --container-width-lg: 84%;
+  --container-width-sm: 94%;
+
+  --radius-1: 2rem;
+  --radius-2: 1.2rem;
+  --radius-3: 0.8rem;
+  --radius-4: 0.5rem;
+  --radius-5: 0.3rem;
+
+  --o-transition: all 300ms ease;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.primary {
+  color: #4AC8AE;
+}
+
+.bg-primary {
+  background: #d0fff6;
+}
+
+.bg-dark {
+  background-color: #1E1E1E;
+}
+
+.border {
+  border: 0.5px solid rgb(244, 244, 244);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: var(--color-gray-800);
+  line-height: 1.7;
+  background: var(--color-gray-100);
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+
+a {
+  color: var(--color-white);
+  font-weight: 300;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+  padding: 0.4rem 2rem;
+  border-radius: var(--radius-5);
+  width: fit-content;
+  cursor: pointer;
+  transition: var(--o-transition);
+}
+
+.btn.sm {
+  padding: 0.2rem 0.6rem;
+  background: #e2fff9;
+  font-weight: 200;
+  border-radius: var(--radius-4);
+}
+
+.btn.primary {
+  background: var(--color-primary);
+  color: var(--color-gray-100);
+}
+
+.btn:hover {
+  background: var(--color-black)
+    /*rgb(233, 54, 90)*/
+  ;
+  color: var(--color-gray-100);
+  box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+
+p,
+a,
+figcaption {
+  font-size: 1rem;
+}
+
+section {
+  padding: 7rem 0;
+}
+
+section>h1,
+section>h3,
+section>p {
+  width: 50%;
+  text-align: center;
+  margin-inline: auto;
+}
+
+section>div>h2 {
+  color: #4AC8AE;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+section>div>h3 {
+  color: black;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+.center {
+  margin-inline: auto;
+}
+
+section>h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* section:nth-child(odd) {
+  background: var(--color-gray-200);
+} */
+
+.section {
+  max-width: 100vw;
+  padding: var(--bottom-section-padding);
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin-inline: auto;
+}
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
