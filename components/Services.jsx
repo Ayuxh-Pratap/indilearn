@@ -32,7 +32,7 @@ const Services = () => {
         },
     ]
     return (
-        <section className='container py-10'>
+        <section id='services' className='container py-10'>
             <div className='text-center mb-10'>
                 <h2>Our Services</h2>
                 <h3 className='lg:w-[60rem] center'>We Put You In TOP 1% With Our Industry Rated Curriculum

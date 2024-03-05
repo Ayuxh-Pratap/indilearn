@@ -7,13 +7,13 @@ const Footer = () => {
         <footer className='bg-black py-20'>
             <div className='flex items-center lg:gap-0 gap-10 flex-col lg:flex-row justify-center lg:justify-around mb-10'>
                 <h3>IndiLearn</h3>
-                <ul className='flex lg:flex-row flex-col text-center justify-center lg:flex-ror gap-8 lg:mb-0 mb-10'>
-                    <li><a href="/" className='text-white'>Home</a></li>
-                    <li><a href="/" className='text-white'>Courses</a></li>
-                    <li><a href="/" className='text-white'>Instructors</a></li>
-                    <li><a href="/" className='text-white'>Services</a></li>
-                    <li><a href="/" className='text-white'>About Us</a></li>
-                    <li><a href="/" className='text-white'>Events</a></li>
+                <ul className='flex lg:flex-row flex-col text-white text-center justify-center lg:flex-ror gap-8 lg:mb-0 mb-10'>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="/AboutUs">About Us</a></li>
+                    <li><a href="#instructors">Instructors</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#events">Events</a></li>
                 </ul>
                 <div className='flex gap-4'>
                     <a href="/"><FaHeart /></a>

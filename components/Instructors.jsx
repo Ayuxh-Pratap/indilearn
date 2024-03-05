@@ -50,7 +50,7 @@ const Instructors = () => {
     ]
 
     return (
-        <section className='container text-center'>
+        <section id='instructors' className='container text-center'>
             <div className='text-black mb-16'>
                 <h2>Our Heroes</h2>
                 <h3 className='mb-4'>Meet Our Instructors</h3>

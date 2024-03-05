@@ -45,7 +45,7 @@ const Courses = () => {
     ]
 
     return (
-        <section className='lg:container bg-dark text-center lg:rounded-[1rem]'>
+        <section id='courses' className='lg:container bg-dark text-center lg:rounded-[1rem]'>
             <div className='mb-16 px-10'>
                 <h2>Our Courses</h2>
                 <h3 className='text-white center lg:w-[35rem] mb-4'>Our Best Courses Offered and Teach By Best of The Instructors</h3>
@@ -63,7 +63,7 @@ const Courses = () => {
                             <p className='mb-4'>{item.des}</p>
                             <h3 className='mb-3'>{item.price}</h3>
                             <div className='flex justify-between'>
-                                <button className='btn'><a href="/" className='text-[0.8rem]'>{item.tag}</a></button>
+                                <button className='btn'><a href="/courseDetail" className='text-[0.8rem]'>{item.tag}</a></button>
                                 <button className='btn'><a href="/" className='text-[0.8rem]'>{item.buy}</a></button>
                             </div>
                         </div>
