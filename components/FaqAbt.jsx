@@ -37,9 +37,9 @@ const FaqAbt = () => {
 
     return (
         <section className='container text-center'>
-            <div className='mb-16 px-10 text-black'>
-                <h2>Benefits</h2>
-                <h3 className='center lg:w-[45rem] mb-4'>We Offer Best Practices and Solutions for Your Learning Experience</h3>
+            <div className='mb-16 text-black'>
+                <h2>FAQs</h2>
+                <h3 className='center lg:w-[45rem] mb-4'>Your Frequently Asked Questions</h3>
                 <p className='center lg:w-[40vw]'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-6 mb-16'>
