@@ -9,7 +9,7 @@ const Instructors = () => {
     const serviceItems = [
         {
             id: 1,
-            dp: "Avatar.svg",
+            dp: "Avatar.jpg",
             name: "Ganesh Pr Singh",
             post: "Application Support Analyst Lead",
             des: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
@@ -19,7 +19,7 @@ const Instructors = () => {
         },
         {
             id: 2,
-            dp: "Avatar.svg",
+            dp: "Avatar.jpg",
             name: "Ganesh Pr Singh",
             post: "Application Support Analyst Lead",
             des: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
@@ -29,7 +29,7 @@ const Instructors = () => {
         },
         {
             id: 3,
-            dp: "Avatar.svg",
+            dp: "Avatar.jpg",
             name: "Ganesh Pr Singh",
             post: "Application Support Analyst Lead",
             des: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
@@ -39,7 +39,7 @@ const Instructors = () => {
         },
         {
             id: 3,
-            dp: "Avatar.svg",
+            dp: "Avatar.jpg",
             name: "Ganesh Pr Singh",
             post: "Application Support Analyst Lead",
             des: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
@@ -60,7 +60,7 @@ const Instructors = () => {
                 {
                     serviceItems.map((item, i) => (
                         <div key={i} className=' bg-gray-100 p-9 rounded-lg'>
-                            <img className='center w-[5rem] mb-4' src={item.dp} alt="" />
+                            <img className='center w-[5rem] mb-4 rounded-full' src={item.dp} alt="" />
                             <h2 className='text-xl text-black'>{item.name}</h2>
                             <p className='primary mb-4'>{item.post}</p>
                             <p className='text-slate-600 mb-4'>{item.des}</p>

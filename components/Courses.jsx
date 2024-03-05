@@ -8,7 +8,7 @@ const Courses = () => {
     const serviceItems = [
         {
             id: 1,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -20,7 +20,7 @@ const Courses = () => {
         },
         {
             id: 2,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -32,7 +32,7 @@ const Courses = () => {
         },
         {
             id: 3,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",

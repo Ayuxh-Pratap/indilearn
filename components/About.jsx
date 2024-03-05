@@ -11,7 +11,7 @@ const About = () => {
             <button className='btn primary'><a href="/AboutUs">Know More</a></button>
         </div>
         <div className='lg:block basis-2/4 pl-32 hidden'>
-            <img src="about_img.svg" alt="" />
+            <img src="about_img.jpg" alt="" />
         </div>
     </section>
   )

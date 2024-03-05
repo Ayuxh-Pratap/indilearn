@@ -5,21 +5,21 @@ const Events = () => {
     const serviceItems = [
         {
             id: 1,
-            img: "eve_small.svg",
+            img: "eve_small.jpg",
             tag: "New",
             title: "Class Technologies Inc.",
             desc: "Class Technologies Inc., the company that created Class,...Class Technologies Inc.,"
         },
         {
             id: 2,
-            img: "eve_small.svg",
+            img: "eve_small.jpg",
             tag: "New",
             title: "Class Technologies Inc.",
             desc: "Class Technologies Inc., the company that created Class,..Class Technologies Inc.,."
         },
         {
             id: 3,
-            img: "eve_small.svg",
+            img: "eve_small.jpg",
             tag: "New",
             title: "Class Technologies Inc.",
             desc: "Class Technologies Inc., the company that created Class,...Class Technologies Inc.,"
@@ -35,7 +35,7 @@ const Events = () => {
             </div>
             <div className='flex flex-col lg:flex-row mb-16'>
                 <div className='lg:basis-2/4 text-left lg:pr-10 lg:mb-0 mb-6 text-black'>
-                    <img src="eve_big.svg" className='mb-4' alt="" />
+                    <img src="eve_big.jpg" className='mb-4' alt="" />
                     <small className='btn sm primary mb-2'>NEW</small>
                     <h3 className='text-2xl '>Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</h3>
                     <p className='mb-2'>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
