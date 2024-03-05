@@ -13,8 +13,8 @@ const ContactForm = () => {
                 </div>
 
                 <div className='flex lg:flex-row flex-col gap-20'>
-                    <div className='basis-2/3 flex flex-col gap-4'>
-                        <h4 className='text-left'>Leave Us a Message</h4>
+                    <div className='basis-2/3 flex flex-col gap-4 text-black'>
+                        <h4 className='text-left text-white'>Leave Us a Message</h4>
                         <input type="text" placeholder='Full Name' />
                         <input type="text" placeholder='Mail' />
                         <textarea className='h-[10rem]' name="message" id="" cols="30" rows="10" placeholder='Your Message'></textarea>

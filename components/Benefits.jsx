@@ -67,9 +67,9 @@ const Benefits = () => {
                 }
             </div>
             <div className='flex items-center gap-4 justify-center'>
-                <p className='text-gray-700'>Join as a Mentor</p>
+                <p className='text-gray-700'>Cool , isnt it</p>
                 <hr className=' lg:w-[40rem] w-[1rem] h-[1px] bg-gray-600' />
-                <button className='group btn round black'><a href="/" className='text-black group-hover:text-white'><p>Apply Here!</p></a></button>
+                <button className='group btn round black'><a href="/" className='text-black group-hover:text-white'><p>Get a Course!!</p></a></button>
             </div>
         </section>
     )

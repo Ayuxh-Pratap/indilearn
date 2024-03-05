@@ -7,7 +7,7 @@ const Banner = () => {
       <h3 className='lg:w-[40vw] w-auto leading-10 mb-8'>Join Us by Following Our Socials or Drop a Message</h3>
       <p className='lg:w-[40vw] w-auto mb-6'>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products.</p>
       <button className='btn primary mr-2'><a href="/">Follow Us</a></button>
-      <button className='btn primary ml-2'><a href="/">Send a Hi</a></button>
+      <button className='btn primary ml-2'><a href="/contact">Send a Hi</a></button>
     </section>
   )
 }
