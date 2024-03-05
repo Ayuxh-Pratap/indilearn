@@ -57,7 +57,7 @@ const Events = () => {
                 </div>
             </div>
             <div>
-            <button className='group btn round black'><a href="/" className='text-black group-hover:text-white'><p>View All Events</p></a></button>
+            <button className='group btn round black'><a href="/events" className='text-black group-hover:text-white'><p>View All Events</p></a></button>
             </div>
         </section>
     )
