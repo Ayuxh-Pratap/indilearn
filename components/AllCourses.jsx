@@ -186,7 +186,7 @@ const AllCourses = () => {
                 }
             </div>
             <div className='flex items-center gap-4 justify-center'>
-                <p className='text-gray-700'>Ohh , Already Here ??</p>
+                <p className='text-gray-700'>Already Here??</p>
                 <hr className=' lg:w-[40rem] w-[1rem] h-[1px] bg-gray-600' />
                 <button className='group btn round black'><a href="#coursetop" className='text-black group-hover:text-white'><p>Go to Top!!</p></a></button>
             </div>

@@ -30,7 +30,7 @@ const Events = () => {
         <section id='events' className='container text-center'>
             <div className='text-black mb-16'>
                 <h2>Our Events</h2>
-                <h3 className='mb-4'>How We Meet and Connect With Community</h3>
+                <h3 className='mb-4'>How We Meet and Connect With Our Community</h3>
                 <p className='lg:w-[40rem] center'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
             <div className='flex flex-col lg:flex-row mb-16'>
