@@ -68,7 +68,7 @@ const EventGrid = () => {
                 <h3 className='mb-4 primary'>A Glimpse of Events Done By Our Team</h3>
                 <p className='lg:w-[40vw] center text-black'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
-            <div className='columns-1 gap-5 lg:gap-8 sm:columns-2 lg:columns-3 [&>img:not(:first-child)]:mt-8 mb-16'>
+            <div className='columns-1 gap-5 lg:gap-8 xl:gap-4 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-4 mb-16'>
             {
                 serviceItems.map((item, i) => (
                     <img key={i} src={item.img} alt="" />

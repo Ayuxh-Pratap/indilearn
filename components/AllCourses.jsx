@@ -6,7 +6,7 @@ const AllCourses = () => {
     const serviceItems = [
         {
             id: 1,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -18,7 +18,7 @@ const AllCourses = () => {
         },
         {
             id: 2,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -30,7 +30,7 @@ const AllCourses = () => {
         },
         {
             id: 3,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -42,7 +42,7 @@ const AllCourses = () => {
         },
         {
             id: 4,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -54,7 +54,7 @@ const AllCourses = () => {
         },
         {
             id: 5,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -66,7 +66,7 @@ const AllCourses = () => {
         },
         {
             id: 6,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -78,7 +78,7 @@ const AllCourses = () => {
         },
         {
             id: 7,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -90,7 +90,7 @@ const AllCourses = () => {
         },
         {
             id: 8,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -102,7 +102,7 @@ const AllCourses = () => {
         },
         {
             id: 9,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -114,7 +114,7 @@ const AllCourses = () => {
         },
         {
             id: 10,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -126,7 +126,7 @@ const AllCourses = () => {
         },
         {
             id: 11,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -138,7 +138,7 @@ const AllCourses = () => {
         },
         {
             id: 12,
-            img: "course_img.svg",
+            img: "course_img.jpg",
             name: "Basics of JAVA",
             level: "Beginner Level",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
@@ -166,7 +166,7 @@ const AllCourses = () => {
                     <a href="" className='text-black font-semibold'><p>UI / UX Design</p></a>
                 </div>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-4 gap-8 mb-16'>
+            <div className='grid grid-cols-1 2xl:grid-cols-4 xl:grid-cols-3 gap-8 mb-16'>
                 {
                     serviceItems.map((item, i) => (
                         <div key={i} className='lg:w-[20rem] p-3 bborder hover:scale-105 text-black rounded-xl text-start duration-300 transition-all'>
