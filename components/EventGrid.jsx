@@ -71,7 +71,7 @@ const EventGrid = () => {
             <div className='columns-1 gap-5 lg:gap-8 xl:gap-4 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-4 mb-16'>
             {
                 serviceItems.map((item, i) => (
-                    <img key={i} src={item.img} className='hover:scale-125 xl:hover:scale-0 xl:hover:shadow-none hover:shadow-xl duration-300 transition-all' alt="" />
+                    <img key={i} src={item.img} className='hover:scale-100 xl:hover:scale-125 xl:hover:shadow-xl hover:shadow-none duration-300 transition-all' alt="" />
                 ))
             }
             </div>
