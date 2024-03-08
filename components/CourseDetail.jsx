@@ -15,7 +15,7 @@ const CourseDetail = () => {
                 </div>
             </div>
             <div className='text-black shadow-lg lg:mt-0 mt-6 bg-white rounded-3xl lg:w-[30%] w-[90%] mx-auto lg:absolute right-16 top-[10rem] p-5'>
-                <img className='mb-4' src="course_img.svg" alt="" />
+                <img className='mb-4' src="course_img.jpg" alt="" />
                 <h4>Rs. 999/-</h4>
                 <small className='mb-2'>Hurry Up , 50% Discount May End Soon</small> <br />
                 <button className='btn mb-6'><a href="/">Register Now</a></button>
