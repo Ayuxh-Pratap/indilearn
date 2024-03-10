@@ -4,7 +4,7 @@ const About2 = () => {
     return (
         <section className='container py-0 flex justify-between items-center'>
             <div className='lg:block basis-2/4 pr-32 hidden'>
-                <img src="about_img.svg" alt="" />
+                <img src="about_img.jpg" alt="" />
             </div>
             <div className='text-black lg:basis-2/4'>
                 <h2>About Us</h2>
