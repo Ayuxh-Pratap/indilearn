@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Courses from "@/components/Courses";
 import Events from "@/components/Events";
+import FaqAbt from "@/components/FaqAbt";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Instructors from "@/components/Instructors";
@@ -22,6 +23,7 @@ export default function Home() {
       <Courses />
       <Events />
       <Testimonials />
+      <FaqAbt />
       <Footer />
     </main>
   );

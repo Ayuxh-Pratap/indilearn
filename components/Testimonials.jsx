@@ -5,14 +5,14 @@ const Testimonials = () => {
     const serviceItems = [
         {
             id: 1,
-            img: "Avatar.svg",
+            img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
             des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis. Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
         },
         {
             id: 2,
-            img: "Avatar.svg",
+            img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
             des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis. Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
@@ -20,7 +20,7 @@ const Testimonials = () => {
     ]
 
     return (
-        <section className='lg:container bg-dark text-left lg:rounded-[1rem] lg:mb-36'>
+        <section className='lg:container bg-dark text-left lg:rounded-[1rem]'>
             <div className=' mb-16 px-10 lg:pl-10'>
                 <h2>Our Courses</h2>
                 <h3 className='lg:w-[40vw] text-white mb-4'>Our Best Courses Offered and Teach By Best of The Instructors</h3>
