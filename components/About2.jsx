@@ -1,10 +1,17 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About2 = () => {
+    useEffect(() => {
+        AOS.init({})
+    })
     return (
         <section className='container py-0 flex justify-between items-center'>
             <div className='lg:block basis-2/4 pr-32 hidden'>
-                <img src="about_img.jpg" alt="" />
+                <img data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" src="about_img.jpg" alt="" />
             </div>
             <div className='text-black lg:basis-2/4'>
                 <h2>About Us</h2>

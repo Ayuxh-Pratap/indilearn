@@ -19,7 +19,7 @@ const About = () => {
             <button className='btn primary'><a href="/AboutUs">Know More</a></button>
         </div>
         <div className='lg:block basis-2/4 pl-32 hidden'>
-            <img data-aos="fade-left" data-aos-delay="900ms" src="about_img.jpg" alt="" />
+            <img data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" src="about_img.jpg" alt="" />
         </div>
     </section>
   )

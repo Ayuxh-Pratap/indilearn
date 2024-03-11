@@ -20,7 +20,7 @@ const Hero = () => {
                         <div>
                             <h1 className='lg:text-7xl'>We</h1>
                         </div>
-                        <span data-aos="fade-right" data-aos-delay="700ms" className='primary flex items-center gap-2'>
+                        <span data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" className='primary flex items-center gap-2'>
                             <h1 className='lg:text-7xl'>inspire</h1>
                             <BsStars className='text-3xl lg:text-5xl primary' />
                         </span>
@@ -31,11 +31,11 @@ const Hero = () => {
                 </p>
                 <button className='btn primary mb-10'><a href="#services">Our Services</a></button>
                 {/* <a href="/" className='lg:flex gap-2 items-center bottom-40 right-0 m-0 p-0 rotate-90 absolute text-black hidden'>Scroll Dowm <MdKeyboardDoubleArrowRight /></a> */}
-                <div data-aos="fade-left" data-aos-delay="700ms" className='hidden lg:block absolute right-[10rem] top-[20rem]'>
+                <div data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000" className='hidden lg:block absolute right-[10rem] top-[20rem]'>
                     <Scrolldown />
                 </div>
             </div>
-            <img loading='lazy' src="hero_img.jpg" alt="" />
+            <img data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" loading='lazy' src="hero_img.jpg" alt="" />
         </section>
     )
 }

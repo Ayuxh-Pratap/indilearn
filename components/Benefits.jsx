@@ -1,6 +1,13 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Benefits = () => {
+    useEffect(() => {
+        AOS.init({})
+    })
 
     const serviceItems = [
         {
@@ -48,7 +55,7 @@ const Benefits = () => {
                 <h3 className='center lg:w-[45rem] mb-4'>We Offer Best Practices and Solutions for Your Learnings</h3>
                 <p className='center lg:w-[40vw]'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
-            <div className='grid [&>*:nth-child(odd)]:bg-teal-100 lg:grid-cols-3 grid-cols-1 gap-6 mb-16'>
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className='grid [&>*:nth-child(odd)]:bg-teal-100 lg:grid-cols-3 grid-cols-1 gap-6 mb-16'>
                 {
                     serviceItems.map((item, i) => (
                         <div key={i} className='border group shadow-sm rounded-[0.8rem] text-black bg-white p-10 cursor-pointer hover:scale-105 duration-300 transition-all'>

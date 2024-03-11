@@ -63,7 +63,7 @@ const Instructors = () => {
                 <h3 className='mb-4'>Meet Our Instructors</h3>
                 <p className='lg:w-[40vw] center'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="900ms" className='flex justify-around lg:flex-row flex-col gap-[4rem] mb-16'>
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className='flex justify-around lg:flex-row flex-col gap-[4rem] mb-16'>
                 {
                     serviceItems.map((item, i) => (
                         <div key={i} className=' bg-gray-100 p-9 rounded-lg'>

@@ -49,7 +49,7 @@ const FaqAbt = () => {
                 <h3 className='center lg:w-[45rem] mb-4'>Your Frequently Asked Questions</h3>
                 <p className='center lg:w-[40vw]'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="900ms" className='grid lg:grid-cols-3 grid-cols-1 gap-6 mb-16'>
+            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className='grid lg:grid-cols-3 grid-cols-1 gap-6 mb-16'>
                 {
                     serviceItems.map((item, i) => (
                         <div key={i} className='border hover:border-black text-left shadow-sm rounded-[0.8rem] text-black bg-white p-5 cursor-pointer duration-300 transition-all'>
