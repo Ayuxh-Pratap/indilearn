@@ -8,7 +8,7 @@ const Banner = () => {
       <p className='lg:w-[40vw] w-auto mb-6'>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products.</p>
       <div className='flex justify-center gap-4'>
         <button className='btn'><a href="/courseDetail" className='text-[0.8rem]'>Follow Us</a></button>
-        <button className='btn'><a href="/" className='text-[0.8rem]'>Send a Hi!</a></button>
+        <button className='btn'><a href="/contact" className='text-[0.8rem]'>Send a Hi!</a></button>
       </div>
     </section >
   )

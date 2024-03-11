@@ -15,7 +15,7 @@
   .scroll-container{
     width: 30px;
     height: 60px;
-    border: 2px solid #000;
+    border: 2px solid #1E1E1E;
     border-radius: 15px;
     position: relative;
   }

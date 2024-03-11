@@ -1,6 +1,14 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({})
+})
+
   return (
     <section className='container flex justify-between items-center'>
         <div className='text-black lg:basis-2/4'>
@@ -11,7 +19,7 @@ const About = () => {
             <button className='btn primary'><a href="/AboutUs">Know More</a></button>
         </div>
         <div className='lg:block basis-2/4 pl-32 hidden'>
-            <img src="about_img.jpg" alt="" />
+            <img data-aos="fade-left" data-aos-delay="900ms" src="about_img.jpg" alt="" />
         </div>
     </section>
   )

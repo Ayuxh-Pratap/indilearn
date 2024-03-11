@@ -1,6 +1,13 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const FaqAbt = () => {
+    useEffect(() => {
+        AOS.init({})
+    })
 
     const serviceItems = [
         {
@@ -42,10 +49,10 @@ const FaqAbt = () => {
                 <h3 className='center lg:w-[45rem] mb-4'>Your Frequently Asked Questions</h3>
                 <p className='center lg:w-[40vw]'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
-            <div className='grid lg:grid-cols-3 grid-cols-1 gap-6 mb-16'>
+            <div data-aos="fade-up" data-aos-delay="900ms" className='grid lg:grid-cols-3 grid-cols-1 gap-6 mb-16'>
                 {
                     serviceItems.map((item, i) => (
-                        <div key={i} className='border text-left shadow-sm rounded-[0.8rem] text-black bg-white p-5 cursor-pointer'>
+                        <div key={i} className='border hover:border-black text-left shadow-sm rounded-[0.8rem] text-black bg-white p-5 cursor-pointer duration-300 transition-all'>
                             <h4 className='mb-4'>{item.title}</h4>
                             <p className='mb-4'>{item.des}</p>
                         </div>
@@ -55,7 +62,7 @@ const FaqAbt = () => {
             <div className='flex items-center gap-4 justify-center'>
                 <p className='text-gray-700'>Got a Question</p>
                 <hr className=' lg:w-[40rem] w-[1rem] h-[1px] bg-gray-600' />
-                <button className='group btn round black'><a href="/" className='text-black group-hover:text-white'><p>Ask Here!</p></a></button>
+                <button className='group btn round black'><a href="/contact" className='text-black group-hover:text-white'><p>Ask Here!</p></a></button>
             </div>
         </section>
     )
