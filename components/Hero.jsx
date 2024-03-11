@@ -16,7 +16,7 @@ const Hero = () => {
         <section className='container py-20'>
             <div>
                 <h1 className='lg:text-7xl text-black mb-10 text-5xl'>We guide, <br />
-                    <div className='flex items-center gap-6'>
+                    <div className='flex items-center gap-4 lg:gap-6'>
                         <div>
                             <h1 className='lg:text-7xl'>We</h1>
                         </div>
