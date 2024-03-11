@@ -10,7 +10,7 @@ const WebMenu = ({ links }) => {
 						<Link
 							key={index}
 							href={path}
-							className="hover:text-teal-400 text-black cursor-pointer"
+							className="hover:text-teal-400 text-black cursor-pointer duration-300 transition-all"
 						>
 							{text}
 						</Link>
