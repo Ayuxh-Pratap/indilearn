@@ -41,7 +41,6 @@ const Testimonials = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    infinite: false ,
                     autoplay: false ,
                     speed: 1000,
                     slidesToShow: 1,
