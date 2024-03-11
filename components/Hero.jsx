@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import Scrolldown from './Scrolldown';
 
 
 const Hero = () => {
@@ -13,6 +14,9 @@ const Hero = () => {
                 </p>
                 <button className='btn primary mb-10'><a href="#services">Our Services</a></button>
                 {/* <a href="/" className='lg:flex gap-2 items-center bottom-40 right-0 m-0 p-0 rotate-90 absolute text-black hidden'>Scroll Dowm <MdKeyboardDoubleArrowRight /></a> */}
+                <div className='absolute right-[10rem] top-[20rem]'>
+                <Scrolldown />
+                </div>
             </div>
             <img loading='lazy' src="hero_img.jpg" alt="" />
         </section>
