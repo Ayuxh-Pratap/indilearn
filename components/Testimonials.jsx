@@ -1,6 +1,55 @@
+"use client"
+
 import React from 'react'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import Cards from './Cards';
 
 const Testimonials = () => {
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: true,
+        speed: 6000,
+        autoplaySpeed: 6000,
+        cssEase: "linear",
+
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    infinite: false ,
+                    autoplay: false ,
+                    speed: 1000,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
 
     const serviceItems = [
         {
@@ -8,14 +57,42 @@ const Testimonials = () => {
             img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
-            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis. Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
         },
         {
             id: 2,
             img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
-            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis. Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+        },
+        {
+            id: 3,
+            img: "Avatar.jpg",
+            name: "Ayush Pr Singh",
+            post: "FullStack Developer",
+            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+        },
+        {
+            id: 4,
+            img: "Avatar.jpg",
+            name: "Ayush Pr Singh",
+            post: "FullStack Developer",
+            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+        },
+        {
+            id: 5,
+            img: "Avatar.jpg",
+            name: "Ayush Pr Singh",
+            post: "FullStack Developer",
+            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+        },
+        {
+            id: 6,
+            img: "Avatar.jpg",
+            name: "Ayush Pr Singh",
+            post: "FullStack Developer",
+            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
         },
     ]
 
@@ -26,22 +103,13 @@ const Testimonials = () => {
                 <h3 className='lg:w-[40vw] text-white mb-4'>Our Best Courses Offered and Teach By Best of The Instructors</h3>
                 <p className='lg:w-[30vw]'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
-            <div className='flex gap-10 justify-center lg:flex-row flex-col px-10'>
+            <Slider {...settings} className='mx-10'>
                 {
                     serviceItems.map((item, i) => (
-                        <div key={i} className='lg:w-[45rem] bg-white text-black lg:p-10 p-6 rounded-xl'>
-                            <div className='flex gap-4 items-center mb-6'>
-                                <img className='w-[4rem]' src={item.img} alt="" />
-                                <div>
-                                    <h4>{item.name}</h4>
-                                    <p>{item.post}</p>
-                                </div>
-                            </div>
-                            <p>{item.des}</p>
-                        </div>
+                        <Cards key={i} item={item} />
                     ))
                 }
-            </div>
+            </Slider>
         </section>
     )
 }
