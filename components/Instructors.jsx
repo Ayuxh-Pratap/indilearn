@@ -73,7 +73,7 @@ const Instructors = () => {
                             <p className='text-slate-600 mb-4'>{item.des}</p>
                             <div className='flex gap-4 w-min center'>
                                 <a href="/" className='text-2xl duration-300 transition-all hover:text-teal-400 text-slate-600'>{item.twiicon}</a>
-                                <a href="/" className=' text-2xl duration-300 transition-all hover:text-teal-400 text-slate-600'>{item.linicon}</a>
+                                <a href="/" className='text-2xl duration-300 transition-all hover:text-teal-400 text-slate-600'>{item.linicon}</a>
                             </div>
                         </div>
                     ))

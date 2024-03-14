@@ -13,7 +13,7 @@ const Hero = () => {
     })
 
     return (
-        <section className='container py-20'>
+        <section className='container pt-40 py-20'>
             <div>
                 <h1 className='lg:text-7xl text-black mb-10 text-5xl'>We guide, <br />
                     <div className='flex items-center gap-4 lg:gap-6'>

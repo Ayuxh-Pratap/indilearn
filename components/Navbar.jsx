@@ -33,7 +33,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="container py-4 w-full flex justify-between items-center">
+    <nav className="py-4 fixed z-[999] bg-white/80 backdrop-blur-md w-full ">
+      <div className='container flex justify-between items-center'>
       <a href="/"><h1 className='text-3xl text-black'>IndiLearn</h1></a>
       <WebMenu links={links} />
       <div className="flex justify-end w-full sm:hidden ">
@@ -51,6 +52,7 @@ const Navbar = () => {
       ) : (
         <></>
       )}
+      </div>
     </nav>
   );
 }
