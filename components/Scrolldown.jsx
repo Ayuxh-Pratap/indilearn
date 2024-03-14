@@ -6,8 +6,8 @@ const Scrolldown = () => {
             <div>
                 <h5 className='text-black/70 rotate-90'>Scroll Down</h5>
             </div>
-            <div class="scroll-container">
-                <div class="scroller"></div>
+            <div className="scroll-container">
+                <div className="scroller"></div>
             </div>
         </div>
     )

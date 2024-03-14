@@ -33,7 +33,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="py-4 fixed z-[999] bg-white/80 backdrop-blur-md w-full ">
+    <nav className="py-4 fixed border-b-2 border-black z-[999] bg-white/80 backdrop-blur-md w-full ">
       <div className='container flex justify-between items-center'>
       <a href="/"><h1 className='text-3xl text-black'>IndiLearn</h1></a>
       <WebMenu links={links} />
