@@ -152,12 +152,12 @@ const AllCourses = () => {
 
 
     return (
-        <section id='coursetop' className='container text-center py-20'>
+        <section id='coursetop' className='container text-center pt-40'>
             <div className='mb-16'>
                 <h3 className='mb-4 primary'>Collection of All Courses we Offer Here at IndiLearn</h3>
                 <p className='lg:w-[40vw] center text-black'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
             </div>
-            <div className='w-max sticky top-6 mx-auto flex gap-10 z-10 mb-10'>
+            <div className='w-max mx-auto flex gap-10 z-10 mb-10'>
                 <a href="" className='text-white font-semibold p-4 rounded-xl px-6 bg-black/90'><p>All Courses</p></a>
                 <div className='lg:flex hidden items-center p-4 rounded-xl px-6 gap-6 border bg-white/90'>
                     <a href="" className='text-black font-semibold'><p>Development</p></a>

@@ -63,7 +63,7 @@ const EventGrid = () => {
 
 
     return (
-        <section id='eventtop' className='container text-center'>
+        <section id='eventtop' className='container pt-40 text-center'>
             <div className='mb-16'>
                 <h3 className='mb-4 primary'>A Glimpse of Events Done By Our Team</h3>
                 <p className='lg:w-[40vw] center text-black'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
