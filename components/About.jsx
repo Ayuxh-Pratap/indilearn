@@ -13,9 +13,9 @@ const About = () => {
     <section className='container flex justify-between items-center'>
         <div className='text-black lg:basis-2/4'>
             <h2>About Us</h2>
-            <h3 className='mb-10'>eLearning providing the best opportunities to the students around the glob.</h3>
-            <p className='mb-4'>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products. Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.</p>
-            <p className='mb-10'>Install our top-rated dropshipping app to your e-commerce site and get access to US Suppliers, AliExpress vendors, and the best dropshipping and custom products. Start selling the right products to the customer base that you know best. We connect you to inventory, so you can focus on creating a catalog of profitable products for your online store.</p>
+            <h3 className='mb-10'>IndiLearn is providing the best opportunities to the students around the globe.</h3>
+            <p className='mb-4'>At IndiLearn, we envision a future where quality engineering education is accessible to all. Our goal is to transform traditional learning methods, inspiring innovation and creativity in every student. By bridging the gap between theory and practice, we aim to cultivate a generation of engineers ready to tackle the challenges of tomorrow.</p>
+            <p className='mb-10'>Behind every successful student is a team of dedicated educators and industry professionals. At IndiLearn, our instructors bring a wealth of knowledge and experience to the table. From seasoned engineers to UX/UI designers, our diverse team is committed to nurturing talent and fostering a culture of continuous learning.</p>
             <button className='btn primary'><a href="/AboutUs">Know More</a></button>
         </div>
         <div className='lg:block basis-2/4 pl-32 hidden'>

@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <nav className="py-4 fixed border-b-2 border-black z-[999] bg-white/80 backdrop-blur-md w-full ">
       <div className='container flex justify-between items-center'>
-      <a href="/"><h1 className='text-3xl text-black'>IndiLearn</h1></a>
+      <a href="/"><h1 className='text-3xl text-black'>InDiLearn</h1></a>
       <WebMenu links={links} />
       <div className="flex justify-end w-full sm:hidden ">
         <button
