@@ -18,8 +18,8 @@ const Instructors = () => {
             id: 1,
             dp: "Avatar.jpg",
             name: "Ganesh Pr Singh",
-            post: "Application Support Analyst Lead",
-            des: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
+            post: "FullStack - AI/ML",
+            des: "Fullstack Developer crafting AI and ML solutions with precision.",
             twiicon: <FaLinkedin />,
             linicon: <FaTwitter />,
             tag: "Learn More"
@@ -27,9 +27,9 @@ const Instructors = () => {
         {
             id: 2,
             dp: "Avatar.jpg",
-            name: "Ganesh Pr Singh",
-            post: "Application Support Analyst Lead",
-            des: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
+            name: "Yuvraj Singh",
+            post: "App Dev / Java Dev",
+            des: "Backend Guru, building seamless apps with expert backend prowess",
             twiicon: <FaLinkedin />,
             linicon: <FaTwitter />,
             tag: "Learn More"
@@ -37,9 +37,9 @@ const Instructors = () => {
         {
             id: 3,
             dp: "Avatar.jpg",
-            name: "Ganesh Pr Singh",
-            post: "Application Support Analyst Lead",
-            des: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
+            name: "Saubhagya",
+            post: "Frontend Developer",
+            des: "Frontend Maestro, weaving magic into pixel-perfect user experiences",
             twiicon: <FaLinkedin />,
             linicon: <FaTwitter />,
             tag: "Learn More"
@@ -47,9 +47,9 @@ const Instructors = () => {
         {
             id: 3,
             dp: "Avatar.jpg",
-            name: "Ganesh Pr Singh",
-            post: "Application Support Analyst Lead",
-            des: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
+            name: "Deeptanshu Shukla",
+            post: "Fullstack - AR/VR",
+            des: "XR/VR Innovator, sculpting immersive worlds with cutting-edge technology",
             twiicon: <FaLinkedin />,
             linicon: <FaTwitter />,
             tag: "Learn More"
@@ -61,7 +61,7 @@ const Instructors = () => {
             <div className='text-black mb-16'>
                 <h2>Our Heroes</h2>
                 <h3 className='mb-4'>Meet Our Instructors</h3>
-                <p className='lg:w-[40vw] center'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
+                <p className='lg:w-[40vw] center'>Unveiling Our Diverse Team of Visionaries: Inspiring Minds, Shaping Tomorrow's Tech Landscape with Expertise, Innovation, and Passion for Excellence!</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className='flex justify-around lg:flex-row flex-col gap-[4rem] mb-16'>
                 {

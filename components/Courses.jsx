@@ -9,8 +9,8 @@ const Courses = () => {
         {
             id: 1,
             img: "course_img.jpg",
-            name: "Basics of JAVA",
-            level: "Beginner Level",
+            name: "WebDev Bootca..",
+            level: "intermidiate",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
             price: "Rs. 999/-",
             bagicon: <RiShoppingBag3Fill />,
@@ -21,10 +21,10 @@ const Courses = () => {
         {
             id: 2,
             img: "course_img.jpg",
-            name: "Basics of JAVA",
-            level: "Beginner Level",
+            name: "UI/UX Workshop",
+            level: "Beginner",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
-            price: "Rs. 999/-",
+            price: "Rs. 199/-",
             bagicon: <RiShoppingBag3Fill />,
             heart: <FaHeart />,
             tag: "View Course",
@@ -33,8 +33,8 @@ const Courses = () => {
         {
             id: 3,
             img: "course_img.jpg",
-            name: "Basics of JAVA",
-            level: "Beginner Level",
+            name: "MERN stack",
+            level: "Beginner",
             des: "Java is a class-based object-oriented simple programming language. Though we can not consider it to be fully ... ",
             price: "Rs. 999/-",
             bagicon: <RiShoppingBag3Fill />,
@@ -49,7 +49,7 @@ const Courses = () => {
             <div className='mb-16 px-10'>
                 <h2>Our Courses</h2>
                 <h3 className='text-white center lg:w-[35rem] mb-4'>Our Best Courses Offered and Teach By Best Instructors</h3>
-                <p className='center lg:w-[30vw]'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
+                <p className='center lg:w-[30vw]'>Explore Our Array of Courses: Empowering Your Journey with Cutting-Edge Skills, Expert Instruction, and Pathways to Success in Today's Dynamic Tech World!</p>
             </div>
             <div className='flex justify-center mb-16 px-10 lg:flex-row gap-10 flex-col'>
                 {
@@ -71,7 +71,7 @@ const Courses = () => {
                 }
             </div>
             <div className='flex items-center gap-4 justify-center'>
-            <button className='group btn round white'><a href="/courses" className='text-white group-hover:text-black'><p>Explore All</p></a></button>
+            <button className='group btn round white hover:cursor-not-allowed'><a className='text-white group-hover:text-black'><p>Explore All</p></a></button>
             </div>
         </section>
     )

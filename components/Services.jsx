@@ -33,7 +33,7 @@ const Services = () => {
     ]
     return (
         <section id='services' className='container py-10'>
-            <div className='text-center mb-10'>
+            <div className='text-center mb-14'>
                 <h2>Our Services</h2>
                 <h3 className='lg:w-[60rem] center'>We Put You In TOP 1% With Our Industry Rated Curriculum
                     In Several Fields
@@ -43,7 +43,7 @@ const Services = () => {
                 {
                     serviceItems.map((item, i) => (
                         <div key={i} className='border group shadow-lg rounded-[0.8rem] text-black bg-white p-11 lg:w-[25rem] cursor-pointer hover:bg-teal-400 hover:text-white hover:-translate-y-4 duration-300 transition-all'>
-                            <div className='flex items-center justify-left gap-6 mb-4'>
+                            <div className='flex items-center justify-left gap-6 mb-6'>
                                 <div className=' text-[1.2rem] bg-primary p-3 rounded-md primary'>{item.Icon}</div>
                                 <h4>{item.title}</h4>
                             </div>
