@@ -56,42 +56,42 @@ const Testimonials = () => {
             img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
-            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+            des: "IndiLearn's Web Development Bootcamp was nothing short of transformative for me. The hands-on projects, coupled with expert guidance, not only honed my technical skills but also instilled confidence in my abilities.",
         },
         {
             id: 2,
             img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
-            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+            des: "I can't speak highly enough of the UI/UX Workshop at IndiLearn. It was an eye-opening experience that went beyond just learning design principles. The instructors were not just educators but mentors, guiding us.",
         },
         {
             id: 3,
             img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
-            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+            des: "Enrolling in the MERN Development Program at IndiLearn was a pivotal moment in my career journey. The program's comprehensive curriculum, challenging projects, and environment pushed me to grow",
         },
         {
             id: 4,
             img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
-            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+            des: "What sets IndiLearn apart is their commitment to personalized learning. As someone new to coding, I was initially intimidated. However, the instructors at IndiLearn took the time to understand my pace and learning style.",
         },
         {
             id: 5,
             img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
-            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+            des: "The Complete Web Development Bootcamp at IndiLearn was a turning point for me. Not only did I acquire the technical skills needed to build websites from scratch, but I also learned the importance of collaboration.",
         },
         {
             id: 6,
             img: "Avatar.jpg",
             name: "Ayush Pr Singh",
             post: "FullStack Developer",
-            des: "Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.",
+            des: "IndiLearn's UI/UX Workshop was an invaluable experience that exceeded my expectations. The instructors, with their industry expertise, guided us through the intricacies of designing for user experiences.",
         },
     ]
 
@@ -99,8 +99,8 @@ const Testimonials = () => {
         <section className='lg:container bg-dark text-left lg:rounded-[1rem]'>
             <div className=' mb-16 px-10 lg:pl-10'>
                 <h2>Our Courses</h2>
-                <h3 className='lg:w-[40vw] text-white mb-4'>Our Best Courses Offered and Teach By Best of The Instructors</h3>
-                <p className='lg:w-[30vw]'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
+                <h3 className='lg:w-[40vw] text-white mb-4'>Let our Cummunity speak and Tell you About us and our Courses</h3>
+                <p className='lg:w-[30vw]'>Voices of Success: Discover What Our Students Have to Say About IndiLearn's Engineering Education</p>
             </div>
             <Slider {...settings} className='mx-10'>
                 {
