@@ -13,38 +13,38 @@ const Benefits = () => {
         {
             id: 1,
             no: "01",
-            title: "Standardasation",
-            des: "When working in a global workplace, it’s often difficult to gauge learners’ training experiences, which are ... Read More",
+            title: "Personalized Learning",
+            des: "Stay ahead with up-to-date curriculum designed by industry experts, giving you the skills and knowledge demanded by the engineering field.",
         },
         {
             id: 2,
             no: "02",
-            title: "Standardasation",
-            des: "When working in a global workplace, it’s often difficult to gauge learners’ training experiences, which are ... Read More",
+            title: "Industry Relevance",
+            des: "Stay ahead with up-to-date curriculum designed by industry experts, giving you the skills and knowledge demanded by the engineering field.",
         },
         {
             id: 3,
             no: "03",
-            title: "Standardasation",
-            des: "When working in a global workplace, it’s often difficult to gauge learners’ training experiences, which are ... Read More",
+            title: "Hands-On Projects",
+            des: "From day one, dive into real-world projects that challenge and inspire, reinforcing your learning through practical application.",
         },
         {
             id: 4,
             no: "04",
-            title: "Standardasation",
-            des: "When working in a global workplace, it’s often difficult to gauge learners’ training experiences, which are ... Read More",
+            title: "Supportive Community",
+            des: "Join a vibrant community of learners, where collaboration and knowledge sharing thrive, creating a supportive ecosystem for growth.",
         },
         {
             id: 5,
             no: "05",
-            title: "Standardasation",
-            des: "When working in a global workplace, it’s often difficult to gauge learners’ training experiences, which are ... Read More",
+            title: "Expert Guidance",
+            des: "Benefit from the wisdom of experienced instructors who provide mentorship, feedback, and insights into industry best practices.",
         },
         {
             id: 6,
             no: "06",
-            title: "Standardasation",
-            des: "When working in a global workplace, it’s often difficult to gauge learners’ training experiences, which are ... Read More",
+            title: "Continuous Improvement",
+            des: "We are committed to your success, constantly evolving our courses and resources to meet the changing demands of the engineering landscape.",
         },
     ]
 
@@ -53,7 +53,7 @@ const Benefits = () => {
             <div className='mb-16 lg:px-10 text-black'>
                 <h2>Benefits</h2>
                 <h3 className='center lg:w-[45rem] mb-4'>We Offer Best Practices and Solutions for Your Learnings</h3>
-                <p className='center lg:w-[40vw]'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>
+                <p className='center lg:w-[40vw]'>Unlock Your Potential: Discover the Transformative Benefits of IndiLearn's Engineering Programs</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className='grid [&>*:nth-child(odd)]:bg-teal-100 lg:grid-cols-3 grid-cols-1 gap-6 mb-16'>
                 {

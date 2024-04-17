@@ -9,7 +9,7 @@ const Services = () => {
         {
             id: 1,
             title: "Web / App Dev",
-            des: "Unlock the potential of your digital ideas with our App/Web Development services. From concept to execution, we specialize in creating responsive and user-friendly applications that elevate your online presence.",
+            des: "Unlock the potential of your digital ideas with our App/Web Development services. From concept to execution.",
             Icon: <IoDesktopOutline />,
             tagicon: <MdKeyboardDoubleArrowRight />,
             tag: "Learn More"
@@ -17,7 +17,7 @@ const Services = () => {
         {
             id: 2,
             title: "Data Structures",
-            des: "Master the building blocks of efficient coding with our Data Structures and Algorithms services. In the world of software development, strong foundations are key, and we're here to equip you with the tools for success.",
+            des: "Master the building blocks of efficient coding with our Data Structures and Algorithms services.",
             Icon: <IoDesktopOutline />,
             tagicon: <MdKeyboardDoubleArrowRight />,
             tag: "Learn More"
@@ -25,7 +25,7 @@ const Services = () => {
         {
             id: 3,
             title: "UI / UX Design",
-            des: "Craft immersive digital experiences that captivate your audience with our UI/UX Design services. In today's competitive landscape, user interface (UI / UX) play a crucial role in engaging users and driving conversions",
+            des: "Craft immersive digital experiences that captivate your audience with our UI/UX Design services.",
             Icon: <IoDesktopOutline />,
             tagicon: <MdKeyboardDoubleArrowRight />,
             tag: "Learn More",
