@@ -76,7 +76,7 @@ const Courses = () => {
                             <h3 className='mb-3'>{item.price}</h3>
                             <div className='flex gap-4 justify-between'>
                                 <button className='btn basis-1/2'><a href="/courseDetail" className='text-[0.8rem]'>{item.tag}</a></button>
-                                <button className='btn basis-1/2'><a href="/" className='text-[0.8rem]'>{item.buy}</a></button>
+                                <button className='btn basis-1/2'><a href="https://forms.gle/a5Qit4tHXK5UYJvn7" className='text-[0.8rem]'>{item.buy}</a></button>
                             </div>
                         </div>
                     ))

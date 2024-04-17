@@ -20,7 +20,7 @@ const CourseDetail = () => {
                 <img className='mb-4' src="course_img.jpg" alt="" />
                 <h4>Rs. 199/-</h4>
                 <small className='mb-2'>Hurry Up , 50% Discount May End Soon</small> <br />
-                <button className='btn mb-6'><a href="/">Register Now</a></button>
+                <button className='btn mb-6'><a href="https://forms.gle/a5Qit4tHXK5UYJvn7">Register Now</a></button>
                 <h5 className='mb-2'>This Course Include</h5>
                 <li>Language - English/Hindi</li>
                 <li>Use of Desktop/Laptop</li>
@@ -28,9 +28,7 @@ const CourseDetail = () => {
                 <li>Certificate on Complition</li>
                 <hr className='w-[90%] h-10px text-black mb-6' />
                 <h5 className='mb-2'>Training Include</h5>
-                <p>Expert-led interactive sessions covering UI/UX fundamentals and advanced concepts. Hands-on exercises and projects to apply learned principles in real-world scenarios..</p>
-                <hr className='w-[90%] h-10px text-black mb-6' />
-                <a href="">Socials</a>
+                <p className='mb-2'>Expert-led interactive sessions covering UI/UX fundamentals and advanced concepts. Hands-on exercises and projects to apply learned principles in real-world scenarios..</p>
             </div>
             <div>
                 <div>
@@ -82,7 +80,7 @@ const CourseDetail = () => {
                                 <TbPointFilled />Product managers, marketers, and entrepreneurs wanting to understand user-centric design principles.
                             </div>
                         </p>
-                        <button className='group btn round black'><a className='text-black group-hover:text-white' href="/">Register Now</a></button>
+                        <button className='group btn round black'><a className='text-black group-hover:text-white' href="https://forms.gle/a5Qit4tHXK5UYJvn7">Register Now</a></button>
 
                     </div>
                 </div>
