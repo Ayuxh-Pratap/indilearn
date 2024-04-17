@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHeart } from "react-icons/fa";
+import { FaGithubSquare, FaHeart, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -15,11 +15,11 @@ const Footer = () => {
                     <li><a href="#courses">Courses</a></li>
                     <li><a href="#events">Events</a></li>
                 </ul>
-                <div className='flex gap-4'>
-                    <a href="/"><FaHeart /></a>
-                    <a href="/"><FaHeart /></a>
-                    <a href="/"><FaHeart /></a>
-                    <a href="/"><FaHeart /></a>
+                <div className='flex gap-6'>
+                    <li><a className='text-2xl' href="https://www.instagram.com/indilearn.in/" target="_blank"><FaInstagram /></a></li>
+                    <li><a className='text-2xl' href="https://www.linkedin.com/company/indilearn/" target="_blank"><FaLinkedin /></a></li>
+                    <li><a className='text-2xl' href="https://github.com/indilearn" target="_blank"><FaGithubSquare /></a></li>
+                    <li><a className='text-2xl' href="https://twitter.com/indibus23" target="_blank"><FaTwitter /></a></li>
                 </div>
             </div>
             <hr className='center w-[80vw] h-[1px] mb-10 bg-white' />

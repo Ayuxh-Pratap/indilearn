@@ -5,7 +5,7 @@ import { TbPointFilled } from "react-icons/tb";
 const CourseDetail = () => {
     return (
         <section className='lg:container lg:pt-[5rem] pt-0 lg:relative'>
-            <div className='bg-teal-200'>
+            <div className='bg-teal-200 lg:pt-[0rem] pt-[6rem]'>
                 <div className='lg:w-[60%] w-full p-10 text-black'>
                     <h3 className='mb-6'>
                        Basic to Advance : UI/UX Workshop

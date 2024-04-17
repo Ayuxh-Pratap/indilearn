@@ -9,22 +9,22 @@ const Navbar = () => {
       text: "Home",
       path: "/",
     },
-    {
+    /* {
       text: "Services",
       path: "/AboutUs",
-    },
+    }, */
     {
       text: "About Us",
       path: "/AboutUs",
     },
-    {
+    /* {
       text: "Courses",
       path: "/courses",
-    },
-    {
+    }, */
+    /* {
       text: "Events",
       path: "/events",
-    },
+    }, */
     {
       text: "Contact",
       path: "/contact",
