@@ -61,7 +61,7 @@ const Courses = () => {
                     </div>
                     <p className='mb-4'>Embark on a comprehensive journey into the world of web development with our Complete WebDev Bootca...</p>
                     <h3 className='mb-3'>Rs. 999/-</h3>
-                    <button className='btn w-full cursor-not-allowed'><a href="" className='text-[0.8rem]'>Registration Closed</a></button>
+                    <button className='btn w-full cursor-not-allowed'><a className='text-[0.8rem]'>Registration Closed</a></button>
                 </div>
 
                 {
