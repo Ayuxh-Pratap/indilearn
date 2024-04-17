@@ -74,7 +74,7 @@ const Instructors = () => {
             <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className='flex justify-around lg:flex-row flex-col gap-[4rem] mb-16'>
                 {
                     serviceItems.map((item, i) => (
-                        <div key={i} className=' bg-gray-100 p-9 rounded-lg w-[25rem]'>
+                        <div key={i} className=' bg-gray-100 p-9 rounded-lg lg:w-[25rem]'>
                             <img className='center w-[5rem] mb-4 rounded-full' src={item.dp} alt="" />
                             <h2 className='text-xl text-black'>{item.name}</h2>
                             <p className='primary mb-4'>{item.post}</p>

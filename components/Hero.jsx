@@ -15,13 +15,13 @@ const Hero = () => {
     return (
         <section className='container pt-40 py-20'>
             <div>
-                <h1 className='lg:text-6xl text-black mb-10 text-5xl'>Growing Skills <br />
+                <h1 className='lg:text-6xl text-black mb-10 text-4xl'>Growing Skills <br />
                     <div className='flex items-center gap-4 lg:gap-6'>
                         <div>
-                            <h1 className='lg:text-6xl mt-2'>Defining</h1>
+                            <h1 className='lg:text-6xl text-4xl mt-2'>Defining</h1>
                         </div>
                         <span data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" className='primary flex items-center gap-2'>
-                            <h1 className='lg:text-6xl mt-2'>Future</h1>
+                            <h1 className='lg:text-6xl text-4xl mt-2'>Future</h1>
                             <BsStars className='text-3xl lg:text-5xl primary mt-2' />
                         </span>
                     </div>
