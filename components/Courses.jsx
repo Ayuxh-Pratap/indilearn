@@ -20,7 +20,7 @@ const Courses = () => {
         }, */
         {
             id: 2,
-            img: "course_img.jpg",
+            img: "cou2.jpg",
             name: "UI/UX Workshop",
             level: "Beginner",
             des: "Craft user experiences that leave a lasting impression on your projects and clients with our UI/UX Workshop... ",
@@ -67,7 +67,7 @@ const Courses = () => {
                 {
                     serviceItems.map((item, i) => (
                         <div key={i} className='lg:w-[21rem] bg-white p-3 text-black rounded-xl text-start'>
-                            <img src={item.img} className='mb-6' alt="" />
+                            <img src={item.img} className='mb-6 rounded-lg h-[12rem]' alt="" />
                             <div className='flex justify-between mb-4 items-center'>
                                 <h4>{item.name}</h4>
                                 <button className='btn sm'><small className='primary'>{item.level}</small></button>
@@ -83,7 +83,7 @@ const Courses = () => {
                 }
 
                 <div className='lg:w-[21rem] bg-white p-3 text-black rounded-xl text-start'>
-                    <img src="course_img.jpg" className='mb-6' alt="" />
+                    <img src="cou3.jpg" className='mb-6 lg:h-[12rem] rounded-lg' alt="" />
                     <div className='flex justify-between mb-4 items-center'>
                         <h4>MERN Stack</h4>
                         <button className='btn sm'><small className='primary'>Intermidiate</small></button>
