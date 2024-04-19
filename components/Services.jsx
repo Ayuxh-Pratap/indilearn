@@ -35,8 +35,8 @@ const Services = () => {
         <section id='services' className='container py-10'>
             <div className='text-center mb-14'>
                 <h2>Our Services</h2>
-                <h3 className='lg:w-[60rem] center'>We Put You In TOP 1% With Our Industry Rated Curriculum
-                    In Several Fields
+                <h3 className='lg:w-[60rem] center'>We Put You In TOP <span className='text-yellow-400'>1%</span> <span className='hidden lg:block'>With Our Industry Rated Curriculum
+                    In Several Fields</span>
                 </h3>
             </div>
             <div className='flex justify-between gap-6 lg:flex-row flex-col'>
