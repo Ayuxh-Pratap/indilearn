@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect } from 'react'
+import React, { lazy, useEffect } from 'react'
 import Scrolldown from './Scrolldown';
 import { BsStars } from "react-icons/bs";
 import AOS from 'aos';
@@ -38,7 +38,7 @@ const Hero = () => {
                 </div>
             </div>
             <div>
-                <Image data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" src={hero} alt="" width={2000} height={2000} />
+                <Image data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" src={hero} loading='lazy' alt="" width={2000} height={2000} />
             </div>
         </section>
     )
