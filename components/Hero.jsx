@@ -27,7 +27,7 @@ const Hero = () => {
                     </div>
                 </h1>
                 <p className='mb-4 text-[1.1rem] text-gray-900 lg:w-[50rem]'>
-                At Indilearn, we are not just an educational platform. we are architects of inspiration, fostering a passion for engineering among thousands of technocrats.
+                    At Indilearn, we are not just an educational platform. we are architects of inspiration, fostering a passion for engineering among thousands of technocrats.
                 </p>
                 <button className='btn primary mb-12'><a href="#services">Our Services</a></button>
                 {/* <a href="/" className='lg:flex gap-2 items-center bottom-40 right-0 m-0 p-0 rotate-90 absolute text-black hidden'>Scroll Dowm <MdKeyboardDoubleArrowRight /></a> */}
@@ -35,7 +35,9 @@ const Hero = () => {
                     <Scrolldown />
                 </div>
             </div>
-            <img data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" loading='lazy' src="hero_img.jpg" alt="" />
+            <div>
+                <img data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" loading='lazy' src="hero_img.jpg" alt="" />
+            </div>
         </section>
     )
 }
