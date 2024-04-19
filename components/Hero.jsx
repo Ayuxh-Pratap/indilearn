@@ -5,6 +5,8 @@ import Scrolldown from './Scrolldown';
 import { BsStars } from "react-icons/bs";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
+import hero from '../public/hero_img.jpg'
 
 
 const Hero = () => {
@@ -36,7 +38,7 @@ const Hero = () => {
                 </div>
             </div>
             <div>
-                <img data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" loading='lazy' src="hero_img.jpg" alt="" />
+                <Image data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" src={hero} alt="" width={2000} height={2000} />
             </div>
         </section>
     )
