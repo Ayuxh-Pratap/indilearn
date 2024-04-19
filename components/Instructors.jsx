@@ -74,7 +74,7 @@ const Instructors = () => {
             <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" className='flex justify-around lg:flex-row flex-col gap-[4rem] mb-16'>
                 {
                     serviceItems.map((item, i) => (
-                        <div key={i} className=' bg-gray-100 p-9 rounded-lg lg:w-[25rem]'>
+                        <div key={i} className=' bg-gray-100 hover:bg-gray-50 duration-300 transition-all hover:translate-y-1 p-9 rounded-lg lg:w-[25rem]'>
                             <img className='center w-[5rem] mb-4 rounded-full' src={item.dp} alt="" />
                             <h2 className='text-xl text-black'>{item.name}</h2>
                             <p className='primary mb-4'>{item.post}</p>
@@ -90,7 +90,7 @@ const Instructors = () => {
             <div className='flex items-center gap-4 justify-center'>
                 <p className='text-gray-700'>Join as a Mentor</p>
                 <hr className=' lg:w-[40rem] w-[1rem] h-[1px] bg-gray-600' />
-                <button className='group btn round black'><a href="/" className='text-black group-hover:text-white'><p>Apply Here!</p></a></button>
+                <button className='group btn round black'><a href="https://forms.gle/p9UZXiZuzGAAeEBH7" target='_blank' className='text-black group-hover:text-white'><p>Apply Here!</p></a></button>
             </div>
         </section>
     )
