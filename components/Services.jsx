@@ -50,7 +50,7 @@ const Services = () => {
                             <div className='text-left'>
                                 <p className='mb-4'>{item.des}</p>
                                 <div className='text-left'>
-                                    <a href="/" className='flex items-center gap-2 text-black'>{item.tag}<div className='group-hover:translate-x-2 duration-300 transition-all'>{item.tagicon}</div></a>
+                                    <a href="/AboutUs" className='flex items-center gap-2 text-black'>{item.tag}<div className='group-hover:translate-x-2 duration-300 transition-all'>{item.tagicon}</div></a>
                                 </div>
                             </div>
                         </div>
