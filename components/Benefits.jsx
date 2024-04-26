@@ -49,7 +49,7 @@ const Benefits = () => {
     ]
 
     return (
-        <section className='container text-center'>
+        <section id='section' className='container text-center'>
             <div className='mb-16 lg:px-10 text-black'>
                 <h2>Benefits</h2>
                 <h3 className='center lg:w-[45rem] mb-4'>We Offer Best Practices and Solutions for Your Learnings</h3>

@@ -152,7 +152,7 @@ const AllCourses = () => {
 
 
     return (
-        <section id='coursetop' className='container text-center pt-40'>
+        <section id='coursetop section' className='container text-center pt-40'>
             <div className='mb-16'>
                 <h3 className='mb-4 primary'>Collection of All Courses we Offer Here at IndiLearn</h3>
                 <p className='lg:w-[40vw] center text-black'>Install our top-rated dropshipping app to your e-commerce site and so you can focus on creating a catalog of profitable products for your online store.</p>

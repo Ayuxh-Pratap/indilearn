@@ -45,7 +45,7 @@ const Courses = () => {
     ]
 
     return (
-        <section id='courses' className='lg:container bg-dark text-center lg:rounded-[1rem]'>
+        <section id='courses' className='lg:container bg-dark py-[7rem] text-center lg:rounded-[1rem]'>
             <div className='mb-16 px-10'>
                 <h2>Our Courses</h2>
                 <h3 className='text-white center lg:w-[35rem] mb-4'>Our Best Courses Offered and Teach By Best Instructors</h3>
@@ -95,7 +95,7 @@ const Courses = () => {
 
             </div>
             <div className='flex items-center gap-4 justify-center'>
-                <button className='group btn round white hover:cursor-not-allowed'><a className='text-white group-hover:text-black'><p>Explore All</p></a></button>
+                <button className='group btn round white hover:cursor-not-allowed'><a className='text-white hover:cursor-not-allowed group-hover:text-black'><p>Explore All</p></a></button>
             </div>
         </section>
     )

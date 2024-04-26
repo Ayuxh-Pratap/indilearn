@@ -10,9 +10,9 @@ const About3 = () => {
 })
 
   return (
-    <section className='container pt-[10rem] flex justify-between items-center'>
+    <section id='section-lg' className='container flex justify-between items-center'>
         <div className='text-black lg:basis-2/4'>
-            <h2>WHAT WE OFFER -</h2>
+            <h2>WHAT WE OFFER</h2>
             <h3 className='mb-10'>IndiLearn is providing the best opportunities to the students around the globe.</h3>
             <p className='mb-4'>At IndiLearn, we envision a future where quality engineering education is accessible to all. Our goal is to transform traditional learning methods, inspiring innovation and creativity in every student. By bridging the gap between theory and practice, we aim to cultivate a generation of engineers ready to tackle the challenges of tomorrow.</p>
             <p className='mb-10'>Behind every successful student is a team of dedicated educators and industry professionals. At IndiLearn, our instructors bring a wealth of knowledge and experience to the table. From seasoned engineers to UX/UI designers, our diverse team is committed to nurturing talent and fostering a culture of continuous learning.</p>

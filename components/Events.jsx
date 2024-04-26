@@ -27,7 +27,7 @@ const Events = () => {
     ]
 
     return (
-        <section id='events' className='container text-center'>
+        <section id='events' className='container py-[7rem] text-center'>
             <div className='text-black mb-16'>
                 <h2>Our Events</h2>
                 <h3 className='mb-4'>How We Meet and Connect With Our Community</h3>

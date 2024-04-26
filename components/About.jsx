@@ -10,7 +10,7 @@ const About = () => {
 })
 
   return (
-    <section className='container flex justify-between items-center'>
+    <section id='section' className='container flex justify-between items-center'>
         <div className='text-black lg:basis-2/4'>
             <h2>About Us</h2>
             <h3 className='mb-10'>IndiLearn is providing the best opportunities to the students around the globe.</h3>

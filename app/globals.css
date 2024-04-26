@@ -8,6 +8,18 @@
     margin-inline: auto;
   }
 
+  #section {
+    padding: 7rem 0;
+  }
+
+  #section-sm {
+    padding: 4rem 0;
+  }
+
+  #section-lg {
+    padding-top: 10rem;
+  }
+
   .benefits:nth-child(odd) {
     background: #4AC8AE;
   }
@@ -230,10 +242,6 @@ p,
 a,
 figcaption {
   font-size: 1rem;
-}
-
-section {
-  padding: 7rem 0;
 }
 
 section>h1,

@@ -94,9 +94,9 @@ const Testimonials = () => {
     ]
 
     return (
-        <section className='lg:container bg-dark text-left lg:rounded-[1rem]'>
+        <section id='section' className='lg:container bg-dark text-left lg:rounded-[1rem]'>
             <div className=' mb-16 px-10 lg:pl-10'>
-                <h2>Our Courses</h2>
+                <h2>Testimonials</h2>
                 <h3 className='lg:w-[40vw] text-white mb-4'>Let our Cummunity speak and Tell you About us and our Courses</h3>
                 <p className='lg:w-[30vw]'>Voices of Success: Discover What Our Students Have to Say About IndiLearn's Engineering Education</p>
             </div>

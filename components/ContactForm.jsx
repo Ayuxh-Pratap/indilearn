@@ -14,7 +14,7 @@ const ContactForm = () => {
     })
 
     return (
-        <section>
+        <section id='section'>
             <div className='container lg:px-20 px-5 bg-dark text-white text-center py-14 rounded-[1rem]'>
                 <div className='mb-16'>
                     <h3 className='mb-4 primary'>Contact Us Here</h3>

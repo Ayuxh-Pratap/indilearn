@@ -15,7 +15,7 @@ const Hero = () => {
     })
 
     return (
-        <section className='container pt-40 py-20'>
+        <section id='section-lg' className='container pt-40 py-20'>
             <div>
                 <h1 className='lg:text-6xl text-black mb-10 text-4xl'>Growing Skills <br />
                     <div className='flex items-center gap-4 lg:gap-6'>
@@ -33,7 +33,7 @@ const Hero = () => {
                 </p>
                 <button className='btn primary mb-12'><a href="#services">Our Services</a></button>
                 {/* <a href="/" className='lg:flex gap-2 items-center bottom-40 right-0 m-0 p-0 rotate-90 absolute text-black hidden'>Scroll Dowm <MdKeyboardDoubleArrowRight /></a> */}
-                <div data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000" className='hidden lg:block absolute right-[10rem] top-[20rem]'>
+                <div data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000" className='hidden lg:block absolute right-[10rem] top-[16rem]'>
                     <Scrolldown />
                 </div>
             </div>

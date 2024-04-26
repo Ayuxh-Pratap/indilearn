@@ -43,7 +43,7 @@ const FaqAbt = () => {
     ]
 
     return (
-        <section className='container text-center'>
+        <section id='section' className='container text-center'>
             <div className='mb-16 text-black'>
                 <h2>FAQs</h2>
                 <h3 className='center lg:w-[45rem] mb-4'>Your Frequently Asked Questions</h3>
