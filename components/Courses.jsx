@@ -75,8 +75,9 @@ const Courses = () => {
                             <p className='mb-4'>{item.des}</p>
                             <h3 className='mb-3'>{item.price}</h3>
                             <div className='flex gap-4 justify-between'>
-                                <button className='btn basis-1/2'><a href="/courseDetail" className='text-[0.8rem]'>{item.tag}</a></button>
-                                <button className='btn basis-1/2'><a href="https://forms.gle/a5Qit4tHXK5UYJvn7" className='text-[0.8rem]'>{item.buy}</a></button>
+                                {/* <button className='btn basis-1/2'><a href="/courseDetail" className='text-[0.8rem]'>{item.tag}</a></button>
+                                <button className='btn basis-1/2'><a href="https://forms.gle/a5Qit4tHXK5UYJvn7" className='text-[0.8rem]'>{item.buy}</a></button> */}
+                                <button className='btn w-full cursor-not-allowed'><a href="" className='cursor-not-allowed text-[0.8rem]'>Recently Completed</a></button>
                             </div>
                         </div>
                     ))
@@ -90,7 +91,7 @@ const Courses = () => {
                     </div>
                     <p className='mb-4'>Elevate your skills in full-stack web development with our MERN Development Program. Dive deep in...</p>
                     <h3 className='mb-3'>Rs. 999/-</h3>
-                    <button className='btn w-full cursor-not-allowed'><a href="" className='text-[0.8rem]'>Announcing Soon</a></button>
+                    <button className='btn w-full cursor-not-allowed'><a href="" className='cursor-not-allowed text-[0.8rem]'>Announcing Soon</a></button>
                 </div>
 
             </div>
